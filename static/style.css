@@ -1,0 +1,61 @@
+body {
+    background-color: #f4f6f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Heading */
+h2 {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+/* Upload Box */
+form {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Button Styling */
+button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    background-color: #0d6efd;
+    transform: scale(1.02);
+}
+
+/* Result Box */
+.result-box {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.08);
+}
+
+/* Result Text */
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 14px;
+    color: #333;
+}
+
+/* File Input */
+input[type="file"] {
+    border-radius: 8px;
+    padding: 8px;
+}
+
+/* Hover effect */
+form:hover {
+    transform: translateY(-2px);
+    transition: 0.3s ease;
+}
